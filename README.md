@@ -1,29 +1,33 @@
 # shawarma-utils
-A utility for the game Shawarma Legend. Simple program written using Python.
+用于游戏沙威玛传奇的一个辅助工具，用Python写的一个简易小程序
 
 ---
-[English](#) | [中文(简体)](https://github.com/XxdMkbMark/shawarma-utils/blob/main/README_ZH.md)
 
-## How to use
 
-**Requirement:** Python 3.10/3.11, libraries in [`requirements.txt`](https://raw.githubusercontent.com/XxdMkbMark/shawarma-utils/main/requirements.txt), macOS/Microsoft Windows 7 and higher(lower than this might work, but we do not provide any support to them)/Most Linux distributions(we only provide support to Ubuntu 20.04+ and Debian 11+)
+## 使用方法
 
-1. Download source code  
-   **WE DO NOT PROVIDE ANY KIND OF COMPILED EXECUTABLE RIGHT NOW** (maybe later). **IF YOU NEED IT, DO IT YOURSELF.**
-2. Run `main.py`
-3. Follow the instruction
-4. Done!
+**要求:** Python 3.10/3.11, [`requirements.txt`](https://raw.githubusercontent.com/XxdMkbMark/shawarma-utils/main/requirements.txt) 中的库, macOS/Microsoft Windows 7或更高(低于Windows 7的版本也许能运行，但是我们不对其提供支持)/大部分的Linux发行版(只对Ubuntu 20.04+和Debian 11+提供支持)
+
+1. 下载源代码\
+   **我们暂时不提供任何编译好的可执行文件** (以后也许会)， **如果你需要，请自己编译**
+2. 运行 `main.py`
+3. 跟随程序里的指引
+4. 完事！
 
 ## Q&A
 
-### Common questions:
+### 常见问题:
 
-**Q:** I can't run the program.  
-**A:** Make sure you've installed Python 3.10/3.11 and the libraries listed in [`requirements.txt`](https://raw.githubusercontent.com/XxdMkbMark/shawarma-utils/main/requirements.txt).
+**Q:** 我运行不了这个程序.  
+**A:** 请确认你已经安装了Python 3.10/3.11和 [`requirements.txt`](https://raw.githubusercontent.com/XxdMkbMark/shawarma-utils/main/requirements.txt) 中的库.
 
-**Q:** It says "Failed to create config file" when I run the program for the first time.  
-**A:** Check if you have permission to write to the folder. If this error still exists, you can download the example config file [`config.conf`](https://raw.githubusercontent.com/XxdMkbMark/shawarma-utils/main/config.conf) and put it into the folder.
+**Q:** 我第一次运行这个程序时它显示 "Failed to create config file".  
+**A:** 确认你是否对这个文件夹有写入权限，如果问题依然存在，你可以下载示例配置文件 [`config.conf`](https://raw.githubusercontent.com/XxdMkbMark/shawarma-utils/main/config.conf) 并把它放进文件夹中
 
-### Met more problems?
+### 遇到了更多问题?
 
-Feel free to create an [issue](https://github.com/XxdMkbMark/shawarma-utils/issues)!
+欢迎提交[工单/问题/反馈](https://github.com/XxdMkbMark/shawarma-utils/issues)!
+
+
+## 更新
+添加国际化并可以从服务器下载国际化文件。
